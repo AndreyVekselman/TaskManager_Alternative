@@ -3,6 +3,7 @@ import { main } from "./module/main.mjs";
 import { footer } from "./module/footer.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
 import { createTask } from "./module/createTask.mjs";
+import { createNewTask } from "./module/createNewTask.mjs";
 
 let templates = {
   home: function () {
@@ -32,6 +33,7 @@ let templates = {
   },
   createTask: function () {
     createTask();
+    createNewTask();
   },
 };
 let routes = {
