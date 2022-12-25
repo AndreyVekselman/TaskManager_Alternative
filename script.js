@@ -1,9 +1,14 @@
+import { header } from "./module/header.mjs";
+import { main } from "./module/main.mjs";
+import { footer } from "./module/footer.mjs";
+import { freshMainScreen } from "./module/freshMainScreen.mjs";
+
 let templates = {
   home: function () {
-    //   header();
-    //   main();
-    //   footer();
-    //   freshMainScreen();
+    header();
+    main();
+    footer();
+    freshMainScreen();
     console.log("Hello world");
   },
   solutionPage: function () {
