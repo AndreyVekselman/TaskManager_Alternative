@@ -2,6 +2,7 @@ import { header } from "./module/header.mjs";
 import { main } from "./module/main.mjs";
 import { footer } from "./module/footer.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
+import { createTask } from "./module/createTask.mjs";
 
 let templates = {
   home: function () {
@@ -29,11 +30,15 @@ let templates = {
   about: function () {
     console.log("bye");
   },
+  createTask: function () {
+    createTask();
+  },
 };
 let routes = {
   "/": "home",
   "/solutionPage": "solutionPage",
   "/about": "about",
+  "/createTask": "createTask",
 };
 function resolveRoute(routeURL) {
   try {
