@@ -60,16 +60,10 @@ function router() {
     console.log("Route " + url + " not found");
   }
 }
-window.addEventListener("load", function (e) {
-  router();
-});
-window.addEventListener("hashchange", function (e) {
-  router();
-});
+window.addEventListener("load", router);
+window.addEventListener("hashchange", router);
 
-window.addEventListener("storage", function (e) {
-  freshMainScreen();
-});
+window.addEventListener("storage", freshMainScreen);
 // function checkURL() {
 //   let url = window.location.hash.slice(1) || "/";
 //   if ((url = "/")) {

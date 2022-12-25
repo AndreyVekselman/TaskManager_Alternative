@@ -1,6 +1,7 @@
 #bodyCreateTask {
   display: flex;
   flex-direction: column;
+  background-color: rgb(20, 20, 20);
 }
 
 #createTask {
