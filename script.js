@@ -17,11 +17,11 @@ let templates = {
   },
   solutionPage: function () {
     removeItems();
-    header();
-    main();
-    footer();
+    // header();
+    // main();
     taskSolutionPage();
-    //   showOnTaskSolution();
+
+    // showOnTaskSolution();
     console.log("solution Page active");
   },
   checkDeletePage: function () {
