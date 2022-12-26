@@ -88,7 +88,9 @@ export function showOnHTML(task, index) {
   butnManage.setAttribute("id", "butnManage");
   const btnManagetxt = document.createTextNode("Task Check/Delete");
   const linkToManage = document.createElement("a");
-  linkToManage.setAttribute("href", "/html/taskCheckDelete.html");
+  // linkToManage.setAttribute("href", "/html/taskCheckDelete.html");
+  linkToManage.setAttribute("href", "#/taskCheckDelete");
+
   //
   butnManage.addEventListener("click", () => {
     task.flagCheck = true;
