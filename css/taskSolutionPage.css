@@ -32,7 +32,7 @@
   height: 500px;
   margin: auto;
 }
-#main .capsule1 .title {
+#main .capsule1 .title1 {
   height: 50px;
   font-size: 22px;
   font-family: "Courier New", Courier, monospace;
@@ -40,7 +40,7 @@
   font-weight: bold;
   margin-bottom: 30px;
 }
-#main .capsule1 .title p {
+#main .capsule1 .title1 p {
   text-align: center;
 }
 #main .capsule1 #txtArea {

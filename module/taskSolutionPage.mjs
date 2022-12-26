@@ -50,6 +50,10 @@ export function taskSolutionPage() {
   text1.id = "text";
 
   // Create the button element
+  const btn = document.createElement("div");
+  btn.id = "linkindex1";
+  btn.classList.add("btn");
+
   const button1 = document.createElement("button");
   button1.id = "linkToIndex1";
   button1.textContent = "Back to Tasks Page";
@@ -59,11 +63,12 @@ export function taskSolutionPage() {
   link1.id = "linkindex1";
   link1.href = "/";
   link1.appendChild(button1);
+  btn.appendChild(link1);
 
   // Append the title, text, and link to the first capsule element
   capsule1.appendChild(title1);
   capsule1.appendChild(text1);
-  capsule1.appendChild(link1);
+  capsule1.appendChild(btn);
 
   // Append the first capsule to the main element
   main.appendChild(capsule1);
