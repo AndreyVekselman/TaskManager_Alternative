@@ -4,6 +4,8 @@ import { footer } from "./module/footer.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
 import { createTask } from "./module/createTask.mjs";
 import { createNewTask } from "./module/createNewTask.mjs";
+import { removeItems } from "./module/removeItems.mjs";
+import { taskSolutionPage } from "./module/taskSolutionPage.mjs";
 
 let templates = {
   home: function () {
@@ -14,11 +16,11 @@ let templates = {
     console.log("Hello world");
   },
   solutionPage: function () {
-    //   removeItems();
-    //   header();
-    //   main();
-    //   footer();
-    //   taskSolutionPage();
+    removeItems();
+    header();
+    main();
+    footer();
+    taskSolutionPage();
     //   showOnTaskSolution();
     console.log("solution Page active");
   },
@@ -38,7 +40,7 @@ let templates = {
 };
 let routes = {
   "/": "home",
-  "/solutionPage": "solutionPage",
+  "/taskSolutionPage": "solutionPage",
   "/about": "about",
   "/createTask": "createTask",
 };
