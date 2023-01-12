@@ -19,6 +19,8 @@ Header {
   width: 100%;
   height: 150px;
   text-align: center;
+  line-height: 100px;
+
   #linkToCreatePage {
     width: 150px;
     margin: auto;
@@ -124,6 +126,44 @@ main {
         font-family: $FontFamily;
         font-size: ($FontSize)-10;
         margin-bottom: 20px;
+      }
+    }
+  }
+  .capsule1 {
+    background: rgb(216, 208, 208);
+    width: 45%;
+    border: 4px solid rgb(18, 220, 24);
+    padding: 10px;
+    height: 500px;
+    margin: auto;
+    .title {
+      height: 50px;
+      font-size: ($FontSize)-3;
+      font-family: $FontFamily;
+      font-style: normal;
+      font-weight: bold;
+      margin-bottom: 30px;
+      p {
+        text-align: center;
+      }
+    }
+    #txtArea {
+      resize: none;
+      padding-left: 20px;
+      font-size: $FontSize;
+      margin: 10px 0;
+      width: 100%;
+      height: 300px;
+      border-style: none;
+      box-sizing: border-box;
+    }
+    .btn {
+      align-items: center;
+      text-align: center;
+      #linkToIndex1 {
+        height: 40px;
+        font-size: ($FontSize)-5;
+        // background-color: red;
       }
     }
   }

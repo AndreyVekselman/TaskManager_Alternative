@@ -16,6 +16,7 @@ Header {
   width: 100%;
   height: 150px;
   text-align: center;
+  line-height: 100px;
 }
 Header #linkToCreatePage {
   width: 150px;
@@ -114,6 +115,43 @@ main .mainDiv .solution #butnManage {
   font-family: "Courier New", Courier, monospace;
   font-size: 15px;
   margin-bottom: 20px;
+}
+main .capsule1 {
+  background: rgb(216, 208, 208);
+  width: 45%;
+  border: 4px solid rgb(18, 220, 24);
+  padding: 10px;
+  height: 500px;
+  margin: auto;
+}
+main .capsule1 .title {
+  height: 50px;
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+main .capsule1 .title p {
+  text-align: center;
+}
+main .capsule1 #txtArea {
+  resize: none;
+  padding-left: 20px;
+  font-size: 25px;
+  margin: 10px 0;
+  width: 100%;
+  height: 300px;
+  border-style: none;
+  box-sizing: border-box;
+}
+main .capsule1 .btn {
+  align-items: center;
+  text-align: center;
+}
+main .capsule1 .btn #linkToIndex1 {
+  height: 40px;
+  font-size: 20px;
 }
 
 footer {
