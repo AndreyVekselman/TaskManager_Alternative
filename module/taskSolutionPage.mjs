@@ -75,12 +75,12 @@ export function taskSolutionPage() {
   main.appendChild(capsule1);
 
   // Create the second capsule element
-  // const capsule2 = document.createElement("div");
-  // capsule2.classList.add("capsule2");
+  const capsule2 = document.createElement("div");
+  capsule2.classList.add("capsule2");
 
   // // Create the title element
-  // const title2 = document.createElement("div");
-  // title2.classList.add("title");
+  const title2 = document.createElement("div");
+  title2.classList.add("title");
 
   // // Create the subject text element
   // const subjectText2 = document.createElement("p");
@@ -88,72 +88,73 @@ export function taskSolutionPage() {
   // subjectText2.id = "subjTxt";
 
   // // Create the details element
-  // const details2 = document.createElement("p");
-  // details2.id = "details";
-  // details2.textContent = "Solution details:";
+  const details2 = document.createElement("p");
+  details2.id = "details";
+  details2.textContent = "Solution details:";
 
   // // Append the subject text and details to the
   // // Append the subject text and details to the title element
   // title2.appendChild(subjectText2);
-  // title2.appendChild(details2);
+  title2.appendChild(details2);
 
   // // Create the text element
-  // const text2 = document.createElement("div");
-  // text2.classList.add("text");
+  const text2 = document.createElement("div");
+  text2.classList.add("text");
 
   // // Create the label and textarea elements for the solution
-  // const solutionLabel = document.createElement("label");
-  // solutionLabel.htmlFor = "taskSolution";
-  // solutionLabel.textContent = "Add Solution:";
-  // const solutionTextarea = document.createElement("textarea");
-  // solutionTextarea.name = "solution";
-  // solutionTextarea.id = "taskSolution";
-  // solutionTextarea.placeholder = "Text solution";
+  const solutionLabel = document.createElement("label");
+  solutionLabel.htmlFor = "taskSolution";
+  solutionLabel.textContent = "Add Solution:";
+  const solutionTextarea = document.createElement("textarea");
+  solutionTextarea.name = "solution";
+  solutionTextarea.id = "taskSolution";
+  solutionTextarea.placeholder = "Text solution";
 
   // // Create the label and textarea elements for the teacher notes
-  // const notesLabel = document.createElement("label");
-  // notesLabel.htmlFor = "taskNotes";
-  // notesLabel.textContent = "Teacher notes";
-  // const notesTextarea = document.createElement("textarea");
-  // notesTextarea.name = "taskNotes";
-  // notesTextarea.id = "taskNotes";
-  // notesTextarea.placeholder = "Teacher notes";
-  // notesTextarea.disabled = true;
+  const notesLabel = document.createElement("label");
+  notesLabel.htmlFor = "taskNotes";
+  notesLabel.textContent = "Teacher notes";
+  const notesTextarea = document.createElement("textarea");
+  notesTextarea.name = "taskNotes";
+  notesTextarea.id = "taskNotes";
+  notesTextarea.placeholder = "Teacher notes";
+  notesTextarea.disabled = true;
 
   // // Create the button element
-  // const button2 = document.createElement("button");
-  // button2.id = "submitSolution";
-  // button2.textContent = "Submit Solution";
+  const button2 = document.createElement("button");
+  button2.id = "submitSolution";
+  button2.textContent = "Submit Solution";
 
   // // Create the link element
-  // const link2 = document.createElement("a");
-  // link2.id = "linkToIndex";
-  // link2.appendChild(button2);
+  const link2 = document.createElement("a");
+  link2.id = "linkToIndex";
+  link2.appendChild(button2);
+  //
 
   // // Create the no button element
-  // const noButton = document.createElement("p");
-  // noButton.id = "noButton";
+  const noButton = document.createElement("p");
+  noButton.id = "noButton";
 
   // // Append the label and textarea elements, link, and no button to the button element
-  // const buttonContainer = document.createElement("div");
-  // buttonContainer.classList.add("btn");
-  // buttonContainer.id = "btn";
-  // buttonContainer.appendChild(link2);
-  // buttonContainer.appendChild(noButton);
+  const buttonContainer = document.createElement("div");
+  buttonContainer.classList.add("btn");
+  buttonContainer.id = "btn";
+  buttonContainer.appendChild(link2);
+  buttonContainer.appendChild(noButton);
 
   // // Append the title, text, solution elements, notes elements, and button container to the second capsule element
-  // capsule2.appendChild(title2);
-  // capsule2.appendChild(text2);
-  // capsule2.appendChild(solutionLabel);
-  // capsule2.appendChild(document.createElement("br"));
-  // capsule2.appendChild(solutionTextarea);
-  // capsule2.appendChild(notesLabel);
-  // capsule2.appendChild(document.createElement("br"));
-  // capsule2.appendChild(notesTextarea);
-  // capsule2.appendChild(buttonContainer);
+  capsule2.appendChild(title2);
+  capsule2.appendChild(text2);
+  capsule2.appendChild(solutionLabel);
+  capsule2.appendChild(document.createElement("br"));
+  capsule2.appendChild(solutionTextarea);
+  capsule2.appendChild(notesLabel);
+  capsule2.appendChild(document.createElement("br"));
+  capsule2.appendChild(notesTextarea);
+  capsule2.appendChild(buttonContainer);
 
-  // // Append the second capsule to the main element
-  // main.appendChild(capsule2);
+  // Append the second capsule to the main element
+  main.appendChild(capsule2);
 
   // // Append the main element to the body
   body.appendChild(main);

@@ -153,6 +153,64 @@ main .capsule1 .btn #linkToIndex1 {
   height: 40px;
   font-size: 20px;
 }
+main .capsule2 {
+  background: rgb(216, 208, 208);
+  width: 45%;
+  border: 4px solid red;
+  padding: 10px;
+  height: 500px;
+  margin: auto;
+}
+main .capsule2 .title {
+  height: 50px;
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+main .capsule2 .title p {
+  text-align: center;
+}
+main .capsule2 label {
+  font-size: 25px;
+}
+main .capsule2 #taskSolution {
+  resize: none;
+  padding-left: 20px;
+  font-size: 25px;
+  margin: 10px 0;
+  width: 100%;
+  height: 130px;
+  border-style: none;
+  box-sizing: border-box;
+}
+main .capsule2 #taskNotes {
+  resize: none;
+  padding-left: 20px;
+  font-size: 25px;
+  margin: 10px 0;
+  width: 100%;
+  height: 130px;
+  border-style: none;
+  box-sizing: border-box;
+}
+main .capsule2 .btn {
+  align-items: center;
+  text-align: center;
+}
+main .capsule2 .btn #submitSolution {
+  height: 40px;
+  font-size: 20px;
+}
+main .capsule2 .btn #submitSolution:hover {
+  background-color: green;
+}
+main .capsule2 .btn #noButton {
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+}
 
 footer {
   background-color: black;
