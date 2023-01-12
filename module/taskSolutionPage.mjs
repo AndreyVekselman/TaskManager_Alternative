@@ -1,4 +1,4 @@
-// import { showOnTaskSolution } from "./showOnTaskSolution.mjs";
+import { showOnTaskSolution } from "./showOnTaskSolution.mjs";
 export function taskSolutionPage() {
   const body = document.createElement("body");
   body.id = "bodySolutionTask";
@@ -169,5 +169,6 @@ export function taskSolutionPage() {
 
   // Append the body element to the document
   document.body = body;
+  console.log(`here is text div: ${text1}`);
   // showOnTaskSolution();
 }

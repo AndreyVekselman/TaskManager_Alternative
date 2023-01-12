@@ -6,6 +6,7 @@ import { createTask } from "./module/createTask.mjs";
 import { createNewTask } from "./module/createNewTask.mjs";
 import { removeItems } from "./module/removeItems.mjs";
 import { taskSolutionPage } from "./module/taskSolutionPage.mjs";
+import { showOnTaskSolution } from "./module/showOnTaskSolution.mjs";
 
 let templates = {
   home: function () {
@@ -20,8 +21,7 @@ let templates = {
     // header();
     // main();
     taskSolutionPage();
-
-    // showOnTaskSolution();
+    showOnTaskSolution();
     console.log("solution Page active");
   },
   checkDeletePage: function () {

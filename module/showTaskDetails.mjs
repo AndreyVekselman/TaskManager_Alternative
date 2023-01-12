@@ -1,3 +1,5 @@
+import { taskSolutionPage } from "./taskSolutionPage.mjs";
+taskSolutionPage();
 export function showTaskDetails(task) {
   let text = "";
   const subjText = document.getElementById("subjTxt");
@@ -10,6 +12,8 @@ export function showTaskDetails(task) {
   txtArea.setAttribute("id", "txtArea");
   txtArea.disabled = true;
   txtArea.value = task.taskText;
+  console.log(`here is text div: ${txtDiv}`);
+
   txtDiv.appendChild(txtArea);
   const taskSolution = document.getElementById("taskSolution");
   taskSolution.value = task.taskTextSolution;
