@@ -1,14 +1,14 @@
 // @import "reset";
 
-$FontFamily: Arial, Helvetica, sans-serif;
+$FontSize: 25px;
+$FontFamily: "Courier New", Courier, monospace;
+$TextColor: white;
+
 #bodyCreateTask {
   display: flex;
   flex-direction: column;
   background-color: rgb(20, 20, 20);
 }
-$FontSize: 25px;
-$TextColor: white;
-$FontFamily: "Courier New", Courier, monospace;
 
 @mixin BorderRadius($rad) {
   border-radius: $rad;
@@ -29,8 +29,8 @@ $FontFamily: "Courier New", Courier, monospace;
 #createTask {
   background-color: gray;
   color: aliceblue;
-  font-family: "Courier New", Courier, monospace;
-  font-size: larger;
+  font-family: $FontFamily;
+  font-size: $FontSize;
   width: 100%;
   height: 150px;
   text-align: center;

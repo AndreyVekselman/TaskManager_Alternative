@@ -35,7 +35,7 @@ let templates = {
     console.log("bye");
   },
   createTask: function () {
-    // createHeader("xxx");
+    createHeader("xxx");
     // createMain();
     createTask();
     createNewTask();

@@ -20,7 +20,7 @@ export function createHeader(page) {
       txtNode = document.createTextNode("Teacher Tasks Management");
       break;
     case "xxx":
-      txtNode = document.createTextNode("Teacher Tasks Management");
+      txtNode = document.createTextNode("Create a Student Tasks");
   }
 
   headerSubjectH2.appendChild(txtNode);
