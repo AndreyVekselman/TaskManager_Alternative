@@ -61,16 +61,10 @@ export function taskCheckDeletePage() {
   // // Create the title element
   const title2 = document.createElement("div");
   title2.classList.add("title");
-
-  // // Create the subject text element
-  // const subjectText2 = document.createElement("p");
-  // subjectText2.classList.add("p");
-  // subjectText2.id = "subjTxt";
-
   // // Create the details element
   const details2 = document.createElement("p");
-  details2.id = "details";
-  details2.textContent = "Solution details:";
+  //   details2.id = "details";
+  details2.textContent = "Submition details:";
 
   // // Append the subject text and details to the
   // // Append the subject text and details to the title element
@@ -78,17 +72,18 @@ export function taskCheckDeletePage() {
   title2.appendChild(details2);
 
   // // Create the text element
-  const text2 = document.createElement("div");
-  text2.classList.add("text");
+  //   const text2 = document.createElement("div");
+  //   text2.classList.add("text");
 
   // // Create the label and textarea elements for the solution
   const solutionLabel = document.createElement("label");
   solutionLabel.htmlFor = "taskSolution";
-  solutionLabel.textContent = "Add Solution:";
+  solutionLabel.textContent = "Task solution:";
   const solutionTextarea = document.createElement("textarea");
   solutionTextarea.name = "solution";
   solutionTextarea.id = "taskSolution";
   solutionTextarea.placeholder = "Text solution";
+  solutionTextarea.disabled = true;
 
   // // Create the label and textarea elements for the teacher notes
   const notesLabel = document.createElement("label");
@@ -97,8 +92,23 @@ export function taskCheckDeletePage() {
   const notesTextarea = document.createElement("textarea");
   notesTextarea.name = "taskNotes";
   notesTextarea.id = "taskNotes";
-  notesTextarea.placeholder = "Teacher notes";
-  notesTextarea.disabled = true;
+  notesTextarea.placeholder = "Your notes";
+
+  // Create div grade
+  const grade = document.createElement("div");
+  grade.setAttribute("class", "grade");
+
+  const gradeInputDiv = document.createElement("div");
+  const gradeScoreLabel = document.createElement("label");
+  gradeScoreLabel.htmlFor = "gradeScore";
+  gradeScoreLabel.textContent = "Please enter a score:";
+  const gradeInput = document.createElement("input");
+  gradeInput.type = "number";
+  gradeInput.nmae = "gradeScore";
+  gradeInput.id = "gradeScore";
+  gradeInputDiv.appendChild(gradeScoreLabel);
+  gradeInputDiv.appendChild(gradeInput);
+  grade.appendChild(gradeInputDiv);
 
   // // Create the button element
   const button2 = document.createElement("button");
@@ -112,25 +122,26 @@ export function taskCheckDeletePage() {
   //
 
   // // Create the no button element
-  const noButton = document.createElement("p");
-  noButton.id = "noButton";
+  //   const noButton = document.createElement("p");
+  //   noButton.id = "noButton";
 
   // // Append the label and textarea elements, link, and no button to the button element
   const buttonContainer = document.createElement("div");
   buttonContainer.classList.add("btn");
   buttonContainer.id = "btn";
   buttonContainer.appendChild(link2);
-  buttonContainer.appendChild(noButton);
+  //   buttonContainer.appendChild(noButton);
 
   // // Append the title, text, solution elements, notes elements, and button container to the second capsule element
   capsule2.appendChild(title2);
-  capsule2.appendChild(text2);
+  //   capsule2.appendChild(text2);
   capsule2.appendChild(solutionLabel);
   capsule2.appendChild(document.createElement("br"));
   capsule2.appendChild(solutionTextarea);
   capsule2.appendChild(notesLabel);
   capsule2.appendChild(document.createElement("br"));
   capsule2.appendChild(notesTextarea);
+  capsule2.appendChild(grade);
   capsule2.appendChild(buttonContainer);
 
   // Append the second capsule to the main element
