@@ -33,6 +33,7 @@ export function showOnTaskSolution() {
     const btnDiv = document.getElementById("btn");
     txt.appendChild(txtNode);
     btnDiv.appendChild(txt);
+    submitSolutionBtn.remove();
     submitSolutionBtn.disabled = true;
   } else {
     submitSolutionBtn.addEventListener("click", () => {
@@ -49,4 +50,3 @@ export function showOnTaskSolution() {
     });
   }
 }
-// showOnTaskSolution();
