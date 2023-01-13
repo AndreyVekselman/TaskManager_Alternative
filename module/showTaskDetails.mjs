@@ -1,11 +1,11 @@
-import { taskSolutionPage } from "./taskSolutionPage.mjs";
-taskSolutionPage();
+// import { taskSolutionPage } from "./taskSolutionPage.mjs";
+// taskSolutionPage();
 export function showTaskDetails(task) {
   let text = "";
   const subjText = document.getElementById("subjTxt");
   text = "Task  Subject: " + task.taskSubject;
   const txtNode = document.createTextNode(text);
-  // subjText.appendChild(txtNode);
+  subjText.appendChild(txtNode);
 
   const txtDiv = document.getElementById("text");
   const txtArea = document.createElement("textarea");
