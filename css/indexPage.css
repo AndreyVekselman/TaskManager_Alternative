@@ -219,6 +219,46 @@ main .capsule2 .btn #noButton {
   font-size: 22px;
   font-weight: 600;
 }
+main .capsule2 .grade {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: auto;
+  width: 100%;
+  line-height: 50px;
+}
+main .capsule2 .grade input {
+  width: 60px;
+  height: 25px;
+  font-size: 20px;
+}
+main .capsule2 .grade .btn,
+main .capsule2 .grade .btnSubmit {
+  align-items: center;
+  text-align: center;
+}
+main .capsule2 .grade #submitScore {
+  height: 40px;
+  margin-left: 150px;
+  font-size: 20px;
+  background-color: green;
+}
+main .capsule2 .capsule3 {
+  width: 100%;
+  padding: 10px;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+}
+main .capsule2 .capsule3 .delButton {
+  margin-top: 20px;
+}
+main .capsule2 .capsule3 .delButton #deleteButton {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  background-color: red;
+  height: 50px;
+}
 
 footer {
   background-color: black;
