@@ -1,5 +1,5 @@
 import { createHeader } from "./module/createHeader.mjs";
-import { createMain } from "./module/creataMain.mjs";
+import { createMain } from "./module/createMain.mjs";
 import { createFooter } from "./module/createFooter.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
 import { createTask } from "./module/createTask.mjs";
@@ -10,7 +10,7 @@ import { showOnTaskSolution } from "./module/showOnTaskSolution.mjs";
 
 let templates = {
   home: function () {
-    createHeader();
+    createHeader("home");
     createMain();
     createFooter();
     freshMainScreen();
@@ -18,7 +18,7 @@ let templates = {
   },
   solutionPage: function () {
     removeItems();
-    createHeader();
+    createHeader("solutionPage");
     createMain();
     taskSolutionPage();
     showOnTaskSolution();

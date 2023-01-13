@@ -1,6 +1,6 @@
 import { showOnTaskSolution } from "./showOnTaskSolution.mjs";
 import { createHeader } from "./createHeader.mjs";
-import { createMain } from "./creataMain.mjs";
+import { createMain } from "./createMain.mjs";
 export function taskSolutionPage() {
   // createHeader();
   // createMain();

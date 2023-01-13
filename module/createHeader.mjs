@@ -1,4 +1,4 @@
-export function createHeader() {
+export function createHeader(page) {
   document.body.innerHTML = "";
   let txtNode = "";
 
@@ -9,7 +9,17 @@ export function createHeader() {
 
   const headerSubject = document.createElement("div");
   const headerSubjectH2 = document.createElement("h2");
-  txtNode = document.createTextNode("Student Tasks");
+  switch (page) {
+    case "home":
+      txtNode = document.createTextNode("Student Tasks");
+      break;
+    case "solutionPage":
+      txtNode = document.createTextNode("Student Tasks Solution");
+      break;
+    case "checkDeletePage":
+      txtNode = document.createTextNode("Teacher Tasks Management");
+  }
+
   headerSubjectH2.appendChild(txtNode);
   headerSubject.appendChild(headerSubjectH2);
   header.appendChild(headerSubject);
@@ -17,17 +27,15 @@ export function createHeader() {
   const headerLink = document.createElement("div");
   headerLink.setAttribute("id", "linkToCreatePage");
   const linkA = document.createElement("a");
-  linkA.setAttribute("href", "#/createTask");
-  const linkBtn = document.createElement("button");
-  linkBtn.setAttribute("id", "addTaskBtn");
-  txtNode = document.createTextNode("Add New Task");
-  linkBtn.appendChild(txtNode);
 
-  linkA.appendChild(linkBtn);
+  if (page === "home") {
+    linkA.setAttribute("href", "#/createTask");
+    const linkBtn = document.createElement("button");
+    linkBtn.setAttribute("id", "addTaskBtn");
+    txtNode = document.createTextNode("Add New Task");
+    linkBtn.appendChild(txtNode);
+    linkA.appendChild(linkBtn);
+  }
   headerLink.appendChild(linkA);
-  //
-  // const myHead = document.getElementById("refresh");
-  // myHead.appendChild(headerLink);
-  //
   header.appendChild(headerLink);
 }
