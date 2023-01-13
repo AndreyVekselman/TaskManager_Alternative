@@ -25,5 +25,9 @@ export function header() {
 
   linkA.appendChild(linkBtn);
   headerLink.appendChild(linkA);
+  //
+  // const myHead = document.getElementById("refresh");
+  // myHead.appendChild(headerLink);
+  //
   header.appendChild(headerLink);
 }

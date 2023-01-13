@@ -1,12 +1,13 @@
 import { removeItems } from "./removeItems.mjs";
 import { showOnHTML } from "./showOnHTML.mjs";
 import { TasksManager } from "../TaskManager.mjs";
+import { header } from "./header.mjs";
 
 export function freshMainScreen() {
   const MT = new TasksManager();
   const studentTasks = MT.getAllTasks();
 
-  removeItems();
+  // removeItems();
 
   if (studentTasks.length) {
     studentTasks.forEach((task, index) => {
