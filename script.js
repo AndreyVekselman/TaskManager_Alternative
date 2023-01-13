@@ -35,8 +35,11 @@ let templates = {
     console.log("bye");
   },
   createTask: function () {
+    // createHeader("xxx");
+    // createMain();
     createTask();
     createNewTask();
+    createFooter();
   },
 };
 let routes = {

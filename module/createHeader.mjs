@@ -18,6 +18,9 @@ export function createHeader(page) {
       break;
     case "checkDeletePage":
       txtNode = document.createTextNode("Teacher Tasks Management");
+      break;
+    case "xxx":
+      txtNode = document.createTextNode("Teacher Tasks Management");
   }
 
   headerSubjectH2.appendChild(txtNode);
