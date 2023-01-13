@@ -1,6 +1,6 @@
 import { createHeader } from "./module/createHeader.mjs";
 import { createMain } from "./module/creataMain.mjs";
-import { footer } from "./module/footer.mjs";
+import { createFooter } from "./module/createFooter.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
 import { createTask } from "./module/createTask.mjs";
 import { createNewTask } from "./module/createNewTask.mjs";
@@ -12,16 +12,17 @@ let templates = {
   home: function () {
     createHeader();
     createMain();
-    footer();
+    createFooter();
     freshMainScreen();
     console.log("Hello world");
   },
   solutionPage: function () {
     removeItems();
-    // header();
-    // main();
+    createHeader();
+    createMain();
     taskSolutionPage();
     showOnTaskSolution();
+    createFooter();
     console.log("solution Page active");
   },
   checkDeletePage: function () {
