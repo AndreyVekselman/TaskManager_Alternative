@@ -146,6 +146,14 @@ export function taskCheckDeletePage() {
 
   // Append the second capsule to the main element
   subMain.appendChild(capsule2);
+  //create a capsule3
+  const capsule3 = document.createElement("div");
+  capsule3.setAttribute("class", "capsule3");
+  const delButton = document.createElement("div");
+  delButton.classList.add("delButton");
+  delButton.id = "delButton";
+  capsule3.appendChild(delButton);
+  subMain.appendChild(capsule3);
   main.appendChild(subMain);
   // // Append the main element to the body
   document.body.appendChild(main);
