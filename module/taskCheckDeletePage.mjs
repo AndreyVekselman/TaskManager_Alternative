@@ -1,4 +1,8 @@
 export function taskCheckDeletePage() {
+  //
+  const subMain = document.createElement("div");
+  subMain.classList.add("subMain");
+
   // Create the first capsule element
   const capsule1 = document.createElement("div");
   capsule1.classList.add("capsule1");
@@ -48,7 +52,7 @@ export function taskCheckDeletePage() {
   capsule1.appendChild(btn);
 
   // Append the first capsule to the main element
-  main.appendChild(capsule1);
+  subMain.appendChild(capsule1);
 
   // Create the second capsule element
   const capsule2 = document.createElement("div");
@@ -130,8 +134,8 @@ export function taskCheckDeletePage() {
   capsule2.appendChild(buttonContainer);
 
   // Append the second capsule to the main element
-  main.appendChild(capsule2);
-
+  subMain.appendChild(capsule2);
+  main.appendChild(subMain);
   // // Append the main element to the body
   document.body.appendChild(main);
 }

@@ -131,6 +131,14 @@ main {
       }
     }
   }
+  .subMain {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 20);
+    font-family: $FontFamily;
+    flex: 1;
+  }
   .capsule1 {
     background: rgb(216, 208, 208);
     width: 45%;

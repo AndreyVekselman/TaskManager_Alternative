@@ -7,6 +7,7 @@ import { createNewTask } from "./module/createNewTask.mjs";
 import { removeItems } from "./module/removeItems.mjs";
 import { taskSolutionPage } from "./module/taskSolutionPage.mjs";
 import { showOnTaskSolution } from "./module/showOnTaskSolution.mjs";
+import { taskCheckDeletePage } from "./module/taskCheckDeletePage.mjs";
 
 let templates = {
   home: function () {
@@ -26,17 +27,17 @@ let templates = {
     console.log("solution Page active");
   },
   checkDeletePage: function () {
-    //   header();
-    //   main();
-    //   footer();
+    createHeader("checkDeletePage");
+    createMain();
+    taskCheckDeletePage();
+    createFooter();
+
     console.log("Delete Page active");
   },
   about: function () {
     console.log("bye");
   },
   createTask: function () {
-    createHeader("xxx");
-    // createMain();
     createTask();
     createNewTask();
     createFooter();
@@ -47,6 +48,7 @@ let routes = {
   "/taskSolutionPage": "solutionPage",
   "/about": "about",
   "/createTask": "createTask",
+  "/taskCheckDelete": "checkDeletePage",
 };
 
 function resolveRoute(routeURL) {
