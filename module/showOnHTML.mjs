@@ -64,7 +64,6 @@ export function showOnHTML(task, index) {
   butnSolution.setAttribute("id", "butnSolution");
   const btntxt = document.createTextNode("To Task Details");
   const link = document.createElement("a");
-  // link.setAttribute("href", "../html/taskSolutionPage.html");
 
   //
   link.setAttribute("href", "#/taskSolutionPage");
@@ -88,7 +87,6 @@ export function showOnHTML(task, index) {
   butnManage.setAttribute("id", "butnManage");
   const btnManagetxt = document.createTextNode("Task Check/Delete");
   const linkToManage = document.createElement("a");
-  // linkToManage.setAttribute("href", "/html/taskCheckDelete.html");
   linkToManage.setAttribute("href", "#/taskCheckDelete");
 
   //

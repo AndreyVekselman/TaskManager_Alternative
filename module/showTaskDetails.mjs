@@ -12,7 +12,6 @@ export function showTaskDetails(task) {
   txtArea.setAttribute("id", "txtArea");
   txtArea.disabled = true;
   txtArea.value = task.taskText;
-  console.log(`here is text div: ${txtDiv}`);
 
   txtDiv.appendChild(txtArea);
   const taskSolution = document.getElementById("taskSolution");
