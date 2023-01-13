@@ -1,5 +1,5 @@
-import { header } from "./module/header.mjs";
-import { main } from "./module/main.mjs";
+import { createHeader } from "./module/createHeader.mjs";
+import { createMain } from "./module/creataMain.mjs";
 import { footer } from "./module/footer.mjs";
 import { freshMainScreen } from "./module/freshMainScreen.mjs";
 import { createTask } from "./module/createTask.mjs";
@@ -10,8 +10,8 @@ import { showOnTaskSolution } from "./module/showOnTaskSolution.mjs";
 
 let templates = {
   home: function () {
-    header();
-    main();
+    createHeader();
+    createMain();
     footer();
     freshMainScreen();
     console.log("Hello world");

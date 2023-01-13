@@ -1,7 +1,7 @@
 import { removeItems } from "./removeItems.mjs";
 import { showOnHTML } from "./showOnHTML.mjs";
 import { TasksManager } from "../TaskManager.mjs";
-import { header } from "./header.mjs";
+import { createHeader } from "./createHeader.mjs";
 
 export function freshMainScreen() {
   const MT = new TasksManager();

@@ -1,4 +1,4 @@
-export function header() {
+export function createHeader() {
   document.body.innerHTML = "";
   let txtNode = "";
 

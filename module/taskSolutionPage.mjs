@@ -1,27 +1,33 @@
 import { showOnTaskSolution } from "./showOnTaskSolution.mjs";
+import { createHeader } from "./createHeader.mjs";
+import { createMain } from "./creataMain.mjs";
 export function taskSolutionPage() {
-  const body = document.createElement("body");
-  body.id = "bodySolutionTask";
+  // createHeader();
+  // createMain();
+  // const body = document.createElement("body");
+  // body.id = "bodySolutionTask";
 
-  // Create the header element
-  const header = document.createElement("header");
-  header.classList.add("Header");
-  header.id = "headerSolutionPage";
+  // // Create the header element
+  // const header = document.createElement("header");
+  // header.classList.add("Header");
+  // header.id = "headerSolutionPage";
 
-  // Create the header content
-  const headerContent = document.createElement("div");
-  const headerTitle = document.createElement("h2");
-  headerTitle.textContent = "Student Tasks Solution";
-  headerContent.appendChild(headerTitle);
-  header.appendChild(headerContent);
+  // // Create the header content
+  // const headerContent = document.createElement("div");
+  // const headerTitle = document.createElement("h2");
+  // headerTitle.textContent = "Student Tasks Solution";
+  // headerContent.appendChild(headerTitle);
+  // header.appendChild(headerContent);
 
-  // Append the header to the body
-  body.appendChild(header);
+  // // Append the header to the body
+  // body.appendChild(header);
 
-  // Create the main element
-  const main = document.createElement("main");
-  main.id = "main";
+  // // Create the main element
+  // const main = document.createElement("main");
+  // main.id = "main";
   // main.setAttribute("class", "main");
+  // const main = document.getElementById("main");
+  // console.log(main);
 
   // Create the first capsule element
   const capsule1 = document.createElement("div");
@@ -157,18 +163,13 @@ export function taskSolutionPage() {
   main.appendChild(capsule2);
 
   // // Append the main element to the body
-  body.appendChild(main);
+  document.body.appendChild(main);
 
   // Create the footer element
-  const footer = document.createElement("footer");
-  footer.classList.add("footer");
-  footer.textContent = "@ Powered by Andrey V. 2022";
+  // const footer = document.createElement("footer");
+  // footer.classList.add("footer");
+  // footer.textContent = "@ Powered by Andrey V. 2022";
 
-  // Append the footer to the body
-  body.appendChild(footer);
-
-  // Append the body element to the document
-  document.body = body;
-  console.log(`here is text div: ${text1}`);
-  // showOnTaskSolution();
+  // // Append the footer to the body
+  // document.body.appendChild(footer);
 }
