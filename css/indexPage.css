@@ -225,15 +225,13 @@ main .capsule2 .grade {
   flex: 1;
   margin: auto;
   width: 100%;
-  line-height: 50px;
 }
 main .capsule2 .grade input {
   width: 60px;
   height: 25px;
   font-size: 20px;
 }
-main .capsule2 .grade .btn,
-main .capsule2 .grade .btnSubmit {
+main .capsule2 .grade #btnSubmit {
   align-items: center;
   text-align: center;
 }

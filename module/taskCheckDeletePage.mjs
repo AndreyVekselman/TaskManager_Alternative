@@ -112,8 +112,8 @@ export function taskCheckDeletePage() {
 
   // // Create the button element
   const button2 = document.createElement("button");
-  button2.id = "submitSolution";
-  button2.textContent = "Submit Solution";
+  button2.id = "submitScore";
+  button2.textContent = "Submit Score";
 
   // // Create the link element
   const link2 = document.createElement("a");
@@ -128,8 +128,9 @@ export function taskCheckDeletePage() {
   // // Append the label and textarea elements, link, and no button to the button element
   const buttonContainer = document.createElement("div");
   buttonContainer.classList.add("btn");
-  buttonContainer.id = "btn";
+  buttonContainer.id = "btnSubmit";
   buttonContainer.appendChild(link2);
+  grade.appendChild(buttonContainer);
   //   buttonContainer.appendChild(noButton);
 
   // // Append the title, text, solution elements, notes elements, and button container to the second capsule element
@@ -142,7 +143,7 @@ export function taskCheckDeletePage() {
   capsule2.appendChild(document.createElement("br"));
   capsule2.appendChild(notesTextarea);
   capsule2.appendChild(grade);
-  capsule2.appendChild(buttonContainer);
+  // capsule2.appendChild(buttonContainer);
 
   // Append the second capsule to the main element
   subMain.appendChild(capsule2);

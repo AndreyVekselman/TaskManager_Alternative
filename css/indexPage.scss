@@ -242,15 +242,15 @@ main {
       flex: 1;
       margin: auto;
       width: 100%;
-      line-height: 50px;
+      // line-height: 50px;
 
       input {
         width: 60px;
         height: 25px;
         font-size: ($FontSize)-5;
       }
-      .btn,
-      .btnSubmit {
+      // .btn,
+      #btnSubmit {
         align-items: center;
         text-align: center;
       }
