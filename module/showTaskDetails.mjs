@@ -1,5 +1,3 @@
-// import { taskSolutionPage } from "./taskSolutionPage.mjs";
-// taskSolutionPage();
 export function showTaskDetails(task) {
   let text = "";
   const subjText = document.getElementById("subjTxt");
@@ -21,7 +19,7 @@ export function showTaskDetails(task) {
     const taskNotes = document.getElementById("taskNotes");
     taskNotes.value = task.taskTeacherNotes;
     const taskGrade = document.getElementById("gradeScore");
-    // taskGrade.value = task.taskGrade;
+    taskGrade.value = task.taskGrade;
     const delButtonDiv = document.getElementById("delButton");
     const linkToIndex = document.createElement("a");
     linkToIndex.setAttribute("href", "/index.html");
@@ -30,7 +28,7 @@ export function showTaskDetails(task) {
     delButton.innerText = "DELETE TASK";
     delButton.setAttribute("id", "deleteButton");
     linkToIndex.appendChild(delButton);
-    // delButtonDiv.appendChild(linkToIndex);
+    delButtonDiv.appendChild(linkToIndex);
   }
   if (task.flagSolution) {
     const taskNotes = document.getElementById("taskNotes");

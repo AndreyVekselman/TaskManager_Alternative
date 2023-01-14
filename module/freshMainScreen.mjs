@@ -7,8 +7,6 @@ export function freshMainScreen() {
   const MT = new TasksManager();
   const studentTasks = MT.getAllTasks();
 
-  // removeItems();
-
   if (studentTasks.length) {
     studentTasks.forEach((task, index) => {
       showOnHTML(task, index);

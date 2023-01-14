@@ -10,7 +10,6 @@ export function createTask() {
 
   const main = document.createElement("div");
   main.className = "main";
-  //   main.id = "main";
 
   const formDiv = document.createElement("div");
   formDiv.className = "form";
@@ -100,11 +99,6 @@ export function createTask() {
   a.appendChild(button2);
 
   body.appendChild(main);
-
-  // let footer = document.createElement("footer");
-  // footer.className = "footer";
-  // footer.textContent = "@ Powered by Andrey V. 2022";
-  // body.appendChild(footer);
 
   document.body = body;
 }

@@ -8,6 +8,7 @@ import { removeItems } from "./module/removeItems.mjs";
 import { taskSolutionPage } from "./module/taskSolutionPage.mjs";
 import { showOnTaskSolution } from "./module/showOnTaskSolution.mjs";
 import { taskCheckDeletePage } from "./module/taskCheckDeletePage.mjs";
+import { showOnCheckDelete } from "./module/showOnTaskCheckDelete.mjs";
 
 let templates = {
   home: function () {
@@ -30,6 +31,7 @@ let templates = {
     createHeader("checkDeletePage");
     createMain();
     taskCheckDeletePage();
+    showOnCheckDelete();
     createFooter();
 
     console.log("Delete Page active");

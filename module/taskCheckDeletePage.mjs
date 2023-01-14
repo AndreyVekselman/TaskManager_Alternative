@@ -68,12 +68,9 @@ export function taskCheckDeletePage() {
 
   // // Append the subject text and details to the
   // // Append the subject text and details to the title element
-  // title2.appendChild(subjectText2);
   title2.appendChild(details2);
 
   // // Create the text element
-  //   const text2 = document.createElement("div");
-  //   text2.classList.add("text");
 
   // // Create the label and textarea elements for the solution
   const solutionLabel = document.createElement("label");
@@ -135,7 +132,6 @@ export function taskCheckDeletePage() {
 
   // // Append the title, text, solution elements, notes elements, and button container to the second capsule element
   capsule2.appendChild(title2);
-  //   capsule2.appendChild(text2);
   capsule2.appendChild(solutionLabel);
   capsule2.appendChild(document.createElement("br"));
   capsule2.appendChild(solutionTextarea);
@@ -143,7 +139,6 @@ export function taskCheckDeletePage() {
   capsule2.appendChild(document.createElement("br"));
   capsule2.appendChild(notesTextarea);
   capsule2.appendChild(grade);
-  // capsule2.appendChild(buttonContainer);
 
   // Append the second capsule to the main element
   subMain.appendChild(capsule2);
