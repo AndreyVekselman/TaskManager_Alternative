@@ -153,6 +153,7 @@ export function taskCheckDeletePage() {
   const delButton = document.createElement("div");
   delButton.classList.add("delButton");
   delButton.id = "delButton";
+
   capsule3.appendChild(delButton);
   subMain.appendChild(capsule3);
   main.appendChild(subMain);

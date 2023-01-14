@@ -241,17 +241,17 @@ main .capsule2 .grade #submitScore {
   font-size: 20px;
   background-color: green;
 }
-main .capsule2 .capsule3 {
+main .capsule3 {
   width: 100%;
   padding: 10px;
   height: 150px;
   margin: auto;
   text-align: center;
 }
-main .capsule2 .capsule3 .delButton {
+main .capsule3 .delButton {
   margin-top: 20px;
 }
-main .capsule2 .capsule3 .delButton #deleteButton {
+main .capsule3 .delButton #deleteButton {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
   background-color: red;
