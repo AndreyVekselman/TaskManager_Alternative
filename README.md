@@ -90,4 +90,4 @@ GitHub:
 
 - AndreyVekselman
 
-** Your feedback is valuable and greatly appreciated! **
+**Your feedback is valuable and greatly appreciated!**
