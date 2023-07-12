@@ -86,5 +86,7 @@ This project is licensed under the MIT License.
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-GitHub: - Andrey Vekselman
-Your feedback is valuable and greatly appreciated!
+GitHub:
+
+- AndreyVekselman
+  Your feedback is valuable and greatly appreciated!
