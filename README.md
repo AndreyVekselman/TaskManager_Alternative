@@ -2,7 +2,7 @@
 
 Task Manager Alternative is a web-based task management application designed to help users organize and track their tasks efficiently. With an intuitive interface and robust features, it aims to improve productivity and streamline task management.
 
-![Task Manager Alternative Screenshot](./screenshot.png)
+<!-- ![Task Manager Alternative Screenshot](./screenshot.png) -->
 
 ## Features
 
@@ -38,50 +38,53 @@ Copy code
 npm start
 Access the Task Manager Alternative by opening a web browser and navigating to http://localhost:3000.
 
-Usage
+## Usage
 
 Once the Task Manager Alternative is set up and running, follow these steps to start managing your tasks:
 
-Sign up for an account or log in if you already have one.
+1. Sign up for an account or log in if you already have one.
 
-Create a project or select an existing one.
+2. Create a project or select an existing one.
 
-Add tasks to the project, providing relevant details such as title, description, due date, and priority.
+3. Add tasks to the project, providing relevant details such as title, description, due date, and priority.
 
-Track the progress of tasks, update their status, and mark them as completed when finished.
+4. Track the progress of tasks, update their status, and mark them as completed when finished.
 
-Use the search and filter options to find specific tasks or view tasks based on different criteria.
+5. Use the search and filter options to find specific tasks or view tasks based on different criteria.
 
-Collaborate with team members by assigning tasks and leaving comments or notes.
+6. Collaborate with team members by assigning tasks and leaving comments or notes.
 
-Customize the application settings to tailor the experience to your preferences.
+7. Customize the application settings to tailor the experience to your preferences.
 
-Contributing
+## Contributing
+
 Contributions to the Task Manager Alternative project are welcome! If you have any bug reports, feature requests, or suggestions, please submit them through the GitHub Issues page.
 
 If you'd like to contribute code to the project, please follow these steps:
 
-Fork the repository on GitHub.
+1. Fork the repository on GitHub.
 
-Create a new branch from the master branch to work on your changes.
+2. Create a new branch from the master branch to work on your changes.
 
-Make your modifications, adding new features or fixing bugs.
+3. Make your modifications, adding new features or fixing bugs.
 
-Test your changes thoroughly.
+4. Test your changes thoroughly.
 
-Commit your changes with descriptive commit messages.
+5. Commit your changes with descriptive commit messages.
 
-Push your branch to your forked repository.
+6. Push your branch to your forked repository.
 
-Submit a pull request to the master branch of the main repository.
+7. Submit a pull request to the master branch of the main repository.
 
 The project maintainers will review your contribution and provide feedback.
 
-License
-This project is licensed under the MIT License.
+## License
 
-Contact
+This project is licensed under the # MIT License.
+
+## Contact
+
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-GitHub: AndreyVekselman
+GitHub: *AndreyVekselman*
 Your feedback is valuable and greatly appreciated!
