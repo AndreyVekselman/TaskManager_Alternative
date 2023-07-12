@@ -80,11 +80,11 @@ The project maintainers will review your contribution and provide feedback.
 
 ## License
 
-This project is licensed under the # MIT License.
+This project is licensed under the MIT License.
 
 ## Contact
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-GitHub: *AndreyVekselman*
+GitHub: AndreyVekselman
 Your feedback is valuable and greatly appreciated!
