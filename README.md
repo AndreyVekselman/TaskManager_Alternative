@@ -25,18 +25,20 @@ To run the Task Manager Alternative locally, follow these steps:
    Install the required dependencies:
    ```
 
-bash
-Copy code
-cd TaskManager_Alternative
-npm install
-Configure the project settings and environment variables, if necessary.
+   ```bash
+   Copy code
+   cd TaskManager_Alternative
+   npm install
+   Configure the project settings and environment variables, if necessary.
+   ```
 
-Start the application:
+   Start the application:
 
-bash
+```bash
 Copy code
 npm start
 Access the Task Manager Alternative by opening a web browser and navigating to http://localhost:3000.
+```
 
 ## Usage
 
